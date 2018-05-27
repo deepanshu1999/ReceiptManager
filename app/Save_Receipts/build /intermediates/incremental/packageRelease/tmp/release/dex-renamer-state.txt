@@ -1,0 +1,4 @@
+#Sun May 27 13:33:14 IST 2018
+base.0=/home/deepanshu/AndroidStudioProjects/ReceiptVault/app/build/intermediates/transforms/dexMerger/release/0
+path.0=classes.dex
+renamed.0=classes.dex

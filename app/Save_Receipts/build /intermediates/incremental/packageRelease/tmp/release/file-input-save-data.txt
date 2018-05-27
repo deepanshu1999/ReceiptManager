@@ -1,0 +1,31 @@
+#Internal package file, do not edit.
+#Sun May 27 13:33:15 IST 2018
+2.base=/home/deepanshu/AndroidStudioProjects/ReceiptVault/app/build/intermediates/transforms/mergeJniLibs/release/0
+5.set=NATIVE_RESOURCE
+0.path=crashlytics-build.properties
+2.baseType=DIRECTORY
+3.base=/home/deepanshu/AndroidStudioProjects/ReceiptVault/app/build/intermediates/transforms/dexMerger/release/0
+2.set=NATIVE_RESOURCE
+1.path=lib/x86_64/libucrop.so
+4.base=/home/deepanshu/AndroidStudioProjects/ReceiptVault/app/build/intermediates/transforms/mergeJniLibs/release/0
+count=7
+5.baseType=DIRECTORY
+2.path=lib/armeabi/libucrop.so
+5.base=/home/deepanshu/AndroidStudioProjects/ReceiptVault/app/build/intermediates/transforms/mergeJniLibs/release/0
+4.set=NATIVE_RESOURCE
+3.path=classes.dex
+6.base=/home/deepanshu/AndroidStudioProjects/ReceiptVault/app/build/intermediates/transforms/mergeJniLibs/release/0
+3.baseType=DIRECTORY
+1.set=NATIVE_RESOURCE
+4.path=lib/armeabi-v7a/libucrop.so
+6.set=NATIVE_RESOURCE
+1.baseType=DIRECTORY
+6.baseType=DIRECTORY
+5.path=lib/arm64-v8a/libucrop.so
+0.base=/home/deepanshu/AndroidStudioProjects/ReceiptVault/app/build/intermediates/assets/release
+0.baseType=DIRECTORY
+3.set=DEX
+6.path=lib/x86/libucrop.so
+1.base=/home/deepanshu/AndroidStudioProjects/ReceiptVault/app/build/intermediates/transforms/mergeJniLibs/release/0
+4.baseType=DIRECTORY
+0.set=ASSET

@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Thu May 24 00:22:02 IST 2018
+0.baseType=DIRECTORY
+0.base=/home/deepanshu/AndroidStudioProjects/ReceiptVault/app/build/intermediates/assets/debug
+0.path=crashlytics-build.properties
+0.set=ASSET
+count=1

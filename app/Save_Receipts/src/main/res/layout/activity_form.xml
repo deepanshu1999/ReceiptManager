@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:clickable="true"
+    android:focusableInTouchMode="true"
+    android:focusable="true"
+    tools:context="com.example.deepanshuaggarwal.receiptvault.Form"
+    android:id="@+id/fullayout">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/colorPrimary">
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="250dp"
+        android:layout_height="375dp"
+        android:background="@drawable/border"
+        android:layout_alignParentTop="true"
+        android:layout_margin="10dp"
+        android:padding="1dp"
+        android:src="@drawable/defaultt"
+        android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/WArning"
+            android:text="*Required field"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/category"
+            android:id="@+id/error"
+            android:visibility="invisible"/>
+        <AutoCompleteTextView
+            android:id="@+id/category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F5F5F5"
+            android:layout_below="@id/icon"
+            android:textColor="#000000"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+
+            android:hint="Enter Category Here..."
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:selectAllOnFocus="false" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_below="@id/comment"
+    android:background="#F5F5F5"
+    android:layout_margin="15dp"
+    android:layout_toLeftOf="@id/submitform"
+    android:paddingTop="10dp"
+    android:padding="10dp"
+   >
+    <EditText
+        android:layout_width="0dp"
+        android:layout_weight="8"
+        android:layout_height="match_parent"
+        android:hint="Purchase Date"
+
+        android:textColor="#000000"
+
+        android:inputType="date"
+        android:id="@+id/date"
+        />
+    <ImageView
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="match_parent"
+        android:src="@drawable/poing"
+        android:onClick="datepicking"/>
+</LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:hint="Warranty(Months)"
+        android:textColor="#000000"
+        android:inputType="number"
+        android:background="#F5F5F5"
+
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="30dp"
+        android:padding="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/category"
+
+        android:id="@+id/warranty"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Seller Name"
+        android:layout_margin="15dp"
+        android:layout_below="@id/warranty"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:paddingTop="10dp"
+        android:textColor="#000000"
+        android:background="#F5F5F5"
+        android:id="@+id/seller"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Product Details"
+        android:layout_below="@id/seller"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textColor="#000000"
+        android:background="#F5F5F5"
+        android:layout_margin="15dp"
+        android:paddingTop="20dp"
+        android:id="@+id/comment"
+
+        />
+
+    <Button
+        android:id="@+id/submitform"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/comment"
+        android:layout_margin="20dp"
+        android:background="@drawable/sop" />
+    </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
+<!-- add text view here for each block-->
